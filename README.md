@@ -1,5 +1,5 @@
 # NONL
-## To install
+## Install
 ```
 git clone https://github.com/Yukrid/Comlar.git
 cd Comlar
@@ -17,7 +17,7 @@ make
 sudo make install
 ```
 
-## How to use
+## Help
 see help
 ```
 nonl -h
