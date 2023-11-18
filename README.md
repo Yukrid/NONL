@@ -16,3 +16,20 @@ cmake ..
 make
 sudo make install
 ```
+
+## How to use
+see help
+```
+nonl -h
+```
+
+## Example
+```
+nonl 
+>>> AAA
+BBB
+CCC
+END
+
+AAA BBB CCC 
+```
