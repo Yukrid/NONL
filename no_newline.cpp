@@ -31,12 +31,13 @@ int main(int argc, char** argv){
     {
         comlar::Option<> opt{"h", "help", comlar::OPTIONAL};
         opt.set_function([](void){
-            std::cout<<"No NewLine ver.1.1 (2023/10/24)"<<std::endl;
+            std::cout<<"No NewLine ver.1.2 (2023/11/18)"<<std::endl;
             std::cout<<" -i  --input   input file name   (Opt.)  <str>"<<std::endl;
             std::cout<<" -o  --output  output file name  (Opt.)  <str> "<<std::endl;
             std::cout<<" -h  --help    show help         (Opt.)"<<std::endl;
             std::cout<<std::endl;
             std::cout<<"Enter \"END\" to terminate the input from the standard input."<<std::endl;
+            std::exit(EXIT_SUCCESS);
             return 0;
         });
         exec.add_option(opt);
